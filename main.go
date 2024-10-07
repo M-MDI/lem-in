@@ -70,4 +70,3 @@ func parseInput(filename string) (antCount int, rooms map[string]Room, links []L
 }
 *
 /
-testing
