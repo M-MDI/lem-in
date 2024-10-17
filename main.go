@@ -72,6 +72,7 @@ func readnote(textfile string) []string {
 			}
 		}
 	}
+	
 	for m := len(RoomsandConnections) - 1; m >= 0; m-- {
 		for k := 0; k < len(RoomsandConnections[m]); k++ {
 			if string(RoomsandConnections[m][k]) == "-" {
